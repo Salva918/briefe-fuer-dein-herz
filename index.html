@@ -41,7 +41,7 @@
       margin: 0 auto;
       padding: 40px 20px;
     }
-    h2 {
+    h2, h3 {
       font-family: 'Playfair Display', serif;
       font-size: 2em;
       margin-bottom: 10px;
@@ -56,11 +56,22 @@
       margin-bottom: 10px;
       border-radius: 10px;
     }
-    .preisbox {
+    .preisbox, .form-box, .shop-box {
       background: #f9e0d9;
       padding: 20px;
       border-radius: 10px;
       margin-top: 30px;
+    }
+    textarea, input[type="email"], select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-family: 'Open Sans', sans-serif;
+    }
+    label {
+      font-weight: bold;
     }
     footer {
       text-align: center;
@@ -88,11 +99,39 @@
       <li>📭 Freier Text (deine eigene Geschichte)</li>
     </ul>
 
-    <div class="preisbox">
-      <h3>Wie funktioniert's?</h3>
-      <p>Du wählst ein Thema oder erzählst uns kurz deine Geschichte. Innerhalb von 48h erhältst du deinen persönlichen Brief als PDF per Mail.</p>
-      <p><strong>Preis:</strong> 5 € – einfache Zahlung über PayPal.</p>
-      <a class="button" href="https://www.paypal.me/nightboy91">Jetzt Brief anfordern</a>
+    <div class="shop-box">
+      <h3>Wähle dein Briefpaket:</h3>
+      <ul>
+        <li>💌 Digitaler Brief (PDF per Mail) – <strong>5 €</strong><br>
+          <a class="button" href="https://www.paypal.me/nightboy91/5">Jetzt bestellen</a>
+        </li>
+        <li>🎧 Brief + Sprachnachricht (MP3) – <strong>8 €</strong><br>
+          <a class="button" href="https://www.paypal.me/nightboy91/8">Jetzt bestellen</a>
+        </li>
+        <li>📬 Gedruckter Brief per Post – <strong>12 €</strong><br>
+          <a class="button" href="https://www.paypal.me/nightboy91/12">Jetzt bestellen</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="form-box">
+      <h3>Deine Geschichte</h3>
+      <form action="mailto:nightboy91@mailbox.org" method="POST" enctype="text/plain">
+        <label for="email">Deine E-Mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="paket">Gewähltes Paket:</label><br>
+        <select id="paket" name="paket" required>
+          <option value="Digital">💌 Digital (PDF)</option>
+          <option value="Audio">🎧 Brief + Audio</option>
+          <option value="Print">📬 Gedruckt</option>
+        </select><br><br>
+
+        <label for="message">Was möchtest du teilen?</label><br>
+        <textarea id="message" name="message" rows="6" placeholder="Erzähl uns, was dein Herz gerade bewegt..." required></textarea><br><br>
+
+        <input class="button" type="submit" value="Absenden">
+      </form>
     </div>
   </section>
 
