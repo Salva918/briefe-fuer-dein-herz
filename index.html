@@ -102,9 +102,35 @@
       margin-left: auto;
       margin-right: auto;
     }
+    #cookie-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #3c2a21;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
+      z-index: 1000;
+    }
+    #cookie-banner button {
+      background: #a1887f;
+      border: none;
+      padding: 8px 16px;
+      margin-left: 10px;
+      color: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
+  <div id="cookie-banner">
+    Diese Website verwendet nur essentielle Cookies. <a href="#datenschutz" style="color:#fff; text-decoration: underline;">Mehr erfahren</a>.
+    <button onclick="document.getElementById('cookie-banner').style.display='none'">Okay</button>
+  </div>
+
   <header>
     <h1>Briefe für dein Herz</h1>
     <p>Einfühlsame, anonyme Briefe – geschrieben, als würde dich jemand wirklich verstehen.</p>
