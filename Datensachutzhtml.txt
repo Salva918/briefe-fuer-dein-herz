@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzerklärung</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff8f4;
+      color: #3c2a21;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #a1887f;
+    }
+    p {
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+    a {
+      color: #a1887f;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Datenschutzerklärung</h1>
+  <p>Der Schutz deiner Daten liegt uns am Herzen. Deine Angaben aus dem Formular werden ausschließlich verwendet, um dir deinen gewünschten Brief zu erstellen und dir diesen digital oder postalisch zukommen zu lassen.</p>
+  <p>Eine Weitergabe deiner Daten an Dritte erfolgt nicht. Die Daten werden vertraulich behandelt und nur für die Dauer der Abwicklung gespeichert. Du hast jederzeit das Recht auf Auskunft, Löschung oder Berichtigung deiner Daten.</p>
+  <p>Verantwortlich für die Datenverarbeitung:<br>Salvatore Morgana<br>E-Mail: <a href="mailto:r.leano91@yahoo.com">r.leano91@yahoo.com</a></p>
+  <p><a href="index.html">Zurück zur Startseite</a></p>
+</body>
+</html>
