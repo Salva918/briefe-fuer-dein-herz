@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Briefe für dein Herz – Persönliche Worte, die dich verstehen</title>
+  <meta name="description" content="Erhalte anonyme, liebevoll geschriebene Briefe zu Themen wie Herzschmerz, Hoffnung oder Neubeginn. Digital, gedruckt oder als Audio.">
+  <meta property="og:title" content="Briefe für dein Herz" />
+  <meta property="og:description" content="Erhalte einen anonymen Brief, der dich versteht – digital, als Audio oder per Post." />
+  <meta property="og:url" content="https://DEINENAME.netlify.app/" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff8f4;
+      color: #3c2a21;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #6d4c41;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #a1887f;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    section {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h2, h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #fceee8;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+    .preisbox, .form-box, .shop-box {
+      background: #f9e0d9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+    textarea, input[type="email"], select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-family: 'Open Sans', sans-serif;
+    }
+    label {
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #a1887f;
+      padding: 30px 20px;
+    }
+    .datenschutz-link {
+      font-size: 0.9em;
+      color: #a1887f;
+      margin: 0 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Briefe für dein Herz</h1>
+    <p>Einfühlsame, anonyme Briefe – geschrieben, als würde dich jemand wirklich verstehen.</p>
+    <a class="button" href="https://www.paypal.me/nightboy91">Brief erhalten (5 €)</a>
+  </header>
+
+  <section>
+    <h2>Was bewegt dein Herz?</h2>
+    <ul>
+      <li>💔 Herzschmerz</li>
+      <li>🕊️ Vermissen</li>
+      <li>🫥 Selbstzweifel</li>
+      <li>✨ Hoffnung</li>
+      <li>🌱 Neubeginn</li>
+      <li>📭 Freier Text (deine eigene Geschichte)</li>
+    </ul>
+
+    <div class="shop-box">
+      <h3>Wähle dein Briefpaket:</h3>
+      <ul>
+        <li>💌 Digitaler Brief (PDF per Mail) – <strong>5 €</strong><br>
+          <a class="button" href="https://www.paypal.me/nightboy91/5">Jetzt bestellen</a>
+        </li>
+        <li>🎧 Brief + Sprachnachricht (MP3) – <strong>8 €</strong><br>
+          <a class="button" href="https://www.paypal.me/nightboy91/8">Jetzt bestellen</a>
+        </li>
+        <li>📬 Gedruckter Brief per Post – <strong>12 €</strong><br>
+          <a class="button" href="https://www.paypal.me/nightboy91/12">Jetzt bestellen</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="form-box">
+      <h3>Deine Geschichte</h3>
+      <form action="https://formspree.io/f/xblgooba" method="POST">
+        <label for="email">Deine E-Mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="paket">Gewähltes Paket:</label><br>
+        <select id="paket" name="paket" required>
+          <option value="Digital">💌 Digital (PDF)</option>
+          <option value="Audio">🎧 Brief + Audio</option>
+          <option value="Print">📬 Gedruckt</option>
+        </select><br><br>
+
+        <label for="message">Was möchtest du teilen?</label><br>
+        <textarea id="message" name="message" rows="6" placeholder="Erzähl uns, was dein Herz gerade bewegt..." required></textarea><br><br>
+
+        <input type="checkbox" id="ds" name="datenschutz" required>
+        <label for="ds"> Ich stimme der <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a> zu.</label><br><br>
+
+        <input class="button" type="submit" value="Brief absenden">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <a class="datenschutz-link" href="datenschutz.html">Datenschutz</a> |
+    <a class="datenschutz-link" href="widerruf.html">Widerruf</a> |
+    <a class="datenschutz-link" href="agb.html">AGB</a> |
+    <a class="datenschutz-link" href="sendung.html">Sendungsverfolgung</a> |
+    <a class="datenschutz-link" href="impressum.html">Impressum</a><br>
+    &copy; 2025 Briefe für dein Herz – geschrieben mit Liebe.
+  </footer>
+</body>
+</html>
