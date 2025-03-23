@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widerrufsrecht</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff8f4;
+      color: #3c2a21;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #a1887f;
+    }
+    p {
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+    a {
+      color: #a1887f;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Widerrufsrecht</h1>
+  <p>Da es sich bei den Briefen um individuell angefertigte, personalisierte Inhalte handelt, besteht gemäß <strong>§ 312g Abs. 2 Nr. 1 BGB</strong> kein Widerrufsrecht.</p>
+  <p>Mit der Bestellung stimmst du ausdrücklich zu, dass wir vor Ablauf der Widerrufsfrist mit der Ausführung der Dienstleistung beginnen. Eine Rückerstattung ist daher ausgeschlossen.</p>
+  <p><a href="index.html">Zurück zur Startseite</a></p>
+</body>
+</html>
