@@ -34,6 +34,11 @@
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .button:hover {
+      background-color: #8d6e63;
+      transform: scale(1.05);
     }
     section {
       max-width: 700px;
@@ -54,6 +59,7 @@
       padding: 15px;
       margin-bottom: 10px;
       border-radius: 10px;
+      line-height: 1.5;
     }
     .preisbox, .form-box, .shop-box {
       background: #f9e0d9;
@@ -63,14 +69,29 @@
     }
     textarea, input[type="email"], select {
       width: 100%;
-      padding: 10px;
+      padding: 12px;
       margin-top: 10px;
       border-radius: 8px;
       border: 1px solid #ccc;
       font-family: 'Open Sans', sans-serif;
+      font-size: 1em;
     }
     label {
       font-weight: bold;
+    }
+    input[type="submit"] {
+      background-color: #a1887f;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #8d6e63;
+      transform: scale(1.05);
     }
     footer {
       text-align: center;
@@ -122,6 +143,18 @@
       color: #fff;
       border-radius: 6px;
       cursor: pointer;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      section, .form-box, .shop-box, .preisbox {
+        padding: 20px 15px;
+      }
+      .button, input[type="submit"] {
+        width: 100%;
+        text-align: center;
+      }
     }
   </style>
 </head>
