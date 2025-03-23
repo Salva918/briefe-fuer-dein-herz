@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff8f4;
+      color: #3c2a21;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #a1887f;
+    }
+    p {
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+    a {
+      color: #a1887f;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Impressum</h1>
+  <p>Angaben gemäß § 5 TMG</p>
+  <p>
+    Salvatore Morgana<br>
+    Briefe für dein Herz<br>
+    E-Mail: <a href="mailto:r.leano91@yahoo.com">r.leano91@yahoo.com</a><br>
+    Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Salvatore Morgana
+  </p>
+  <p><a href="index.html">Zurück zur Startseite</a></p>
+</body>
+</html>
